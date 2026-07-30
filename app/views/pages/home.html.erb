@@ -1,4 +1,10 @@
-<div>
-  <h1 class="font-bold text-4xl">Pages#home</h1>
-  <p>Find me in app/views/pages/home.html.erb</p>
+<div class="min-h-screen bg-slate-950 flex items-center justify-center">
+  <%= render Ui::ButtonComponent.new(
+    text: "Get Started",
+    variant: :primary
+  ) %>
 </div>
+
+<h1 class="text-6xl font-bold text-red-500">
+  Tailwind funciona
+</h1>
