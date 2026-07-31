@@ -1,0 +1,2 @@
+module TestGeneratorHelper
+end

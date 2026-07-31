@@ -1,0 +1,47 @@
+<div class="max-w-5xl mx-auto">
+
+  <div class="mb-10">
+    <h1 class="text-4xl font-bold text-white">
+      📚 Code Explainer
+    </h1>
+
+    <p class="mt-3 text-slate-400">
+      Pega un código Ruby On Rails y la IA te lo explicará en detalle.
+    </p>
+  </div>
+
+  <%= form_with url: code_explainer_index_path,
+                method: :post,
+                data: { turbo: false } do |f| %>
+
+    <div class="space-y-4">
+
+      <%= f.text_area :code_exp,
+                      rows: 14,
+                      placeholder: <<~TEXT,
+Pega tu código aquí.
+          TEXT
+                      class: "w-full rounded-xl bg-slate-900 border border-slate-700 p-4 text-white font-mono focus:ring-2 focus:ring-cyan-500 focus:border-cyan-500" %>
+
+      <%= f.submit "Analizar código",
+                   class: "rounded-lg bg-cyan-600 px-6 py-3 font-semibold text-white hover:bg-cyan-700 transition" %>
+
+    </div>
+
+  <% end %>
+
+  <% if @response.present? %>
+
+    <div class="mt-8 p-6 bg-slate-800 rounded-lg text-white">
+      <h2 class="text-xl font-bold mb-4">
+        Explicación del código
+      </h2>
+
+      <pre class="whitespace-pre-wrap">
+        <%= @response %>
+      </pre>
+    </div>
+
+  <% end %>
+
+</div>

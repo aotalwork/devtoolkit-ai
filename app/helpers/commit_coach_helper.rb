@@ -1,0 +1,2 @@
+module CommitCoachHelper
+end
