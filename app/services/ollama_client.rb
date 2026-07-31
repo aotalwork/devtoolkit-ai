@@ -8,7 +8,7 @@ class OllamaClient
     response = Net::HTTP.post(
       URL,
       {
-        model: "llama3.1:8b",
+        model: "llama3.2:3b",
         prompt: prompt,
         stream: false
       }.to_json,
