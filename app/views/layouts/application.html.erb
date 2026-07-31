@@ -1,35 +1,47 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= content_for(:title) || "Devtoolkit Ai" %></title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="application-name" content="Devtoolkit Ai">
-    <meta name="mobile-web-app-capable" content="yes">
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+<head>
+  <title><%= content_for(:title) || "AI Dev Toolkit" %></title>
 
-    <%= yield :head %>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="AI Dev Toolkit">
+  <meta name="mobile-web-app-capable" content="yes">
 
-    <%# Enable PWA manifest for installable apps (make sure to enable in config/routes.rb too!) %>
-    <%#= tag.link rel: "manifest", href: pwa_manifest_path(format: :json) %>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
 
-    <link rel="icon" href="/icon.png" type="image/png">
-    <link rel="icon" href="/icon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="/icon.png">
+  <%= yield :head %>
 
-    <%# Includes all stylesheet files in app/assets/stylesheets %>
-    <%= stylesheet_link_tag :app, "data-turbo-track": "reload" %>
-    <%= javascript_importmap_tags %>
-  </head>
+  <link rel="icon" href="/icon.png" type="image/png">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/icon.png">
+    <%= stylesheet_link_tag "tailwind", "data-turbo-track": "reload" %>
+  <%= javascript_importmap_tags %>
+</head>
 
-  <body class="bg-slate-950 text-white">
+<body class="bg-slate-950 text-white min-h-screen">
 
-  <%= render Ui::NavbarComponent.new %>
+<header class="bg-slate-900 border-b border-slate-800">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+    <%= link_to "🚀 AI Dev Toolkit", root_path,
+                class: "text-2xl font-bold text-cyan-400 hover:text-cyan-300" %>
 
-  <main class="min-h-screen px-6 py-8">
-    <%= yield %>
-  </main>
+    <nav class="flex gap-6 text-sm">
+      <%= link_to "Error Debugger", error_debugger_index_path, class: "hover:text-cyan-400" %>
+      <%= link_to "Test Generator", test_generator_index_path, class: "hover:text-cyan-400" %>
+      <%= link_to "Commit Coach", commit_coach_index_path, class: "hover:text-cyan-400" %>
+      <%= link_to "README Generator", readme_generator_index_path, class: "hover:text-cyan-400" %>
+      <%= link_to "PR Reviewer", pr_reviewer_index_path, class: "hover:text-cyan-400" %>
+      <%= link_to "SQL Optimizer", sql_optimizer_index_path, class: "hover:text-cyan-400" %>
+      <%= link_to "Code Explainer", code_explainer_index_path, class: "hover:text-cyan-400" %>
+    </nav>
+  </div>
+</header>
 
-  </body>
+<main class="max-w-7xl mx-auto px-6 py-10">
+  <%= yield %>
+</main>
+
+</body>
 </html>
