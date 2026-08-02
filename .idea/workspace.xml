@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90ca5312-070d-48d6-95d8-5db0f7607619" name="Changes" comment="sprint 3" />
+    <list default="true" id="90ca5312-070d-48d6-95d8-5db0f7607619" name="Changes" comment="sprint 3">
+      <change beforePath="$PROJECT_DIR$/.idea/devtoolkit-ai.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/devtoolkit-ai.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C:/Users/Usuario/AppData/Local/JetBrains/RubyMine2026.1/projects/devtoolkit-ai.c22cd416/rbs_collection/devtoolkit_ai/rbs_collection.lock.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C:/Users/Usuario/AppData/Local/JetBrains/RubyMine2026.1/projects/devtoolkit-ai.c22cd416/rbs_collection/devtoolkit_ai/rbs_collection.yaml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,16 +22,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "aotalwork"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;aotalwork&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/aotalwork/devtoolkit-ai.git",
-    "accountId": "bc5ff7c9-ab52-45d8-9ba1-1ff923706365"
+    "accountId": "6de50dd0-4669-4cbb-b47b-332591c99a92"
   }
 }]]></component>
   <component name="LogFilters">
@@ -36,10 +41,10 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="3HGJkw4b4CWAUwqK0J1BP1lEnDy" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -51,7 +56,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Rails.devtoolkit-ai.executor": "Run",
+    "Rails.devtoolkit-ai.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -59,7 +64,10 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.lang.ruby.rbs.tools.collection.workspace.sync.RbsCollectionUpdateProjectActivity#LAST_UPDATE_TIMESTAMP": "1785488683360",
+    "credentialsType org.jetbrains.plugins.ruby.remote.impl.RubyCreateRemoteInterpreterDialog$RubyCreateRemoteSdkForm": "WSL",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "F:/DOCUMENTOS ARANTXA/devtoolkit-ai",
     "ruby.structure.view.model.defaults.configured": "true",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurableProvider",
     "vue.rearranger.settings.migration": "true"
@@ -150,7 +158,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1785488622061</updated>
-      <workItem from="1785488624988" duration="12123000" />
+      <workItem from="1785488624988" duration="12796000" />
+      <workItem from="1785502902688" duration="69000" />
+      <workItem from="1785661321275" duration="3009000" />
     </task>
     <task id="LOCAL-00001" summary="sprint 3">
       <option name="closed" value="true" />
@@ -192,13 +202,35 @@
       <option name="project" value="LOCAL" />
       <updated>1785495706516</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="sprint 3">
+      <option name="closed" value="true" />
+      <created>1785502388035</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1785502388035</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="sprint 3" />
     <option name="LAST_COMMIT_MESSAGE" value="sprint 3" />
   </component>
