@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90ca5312-070d-48d6-95d8-5db0f7607619" name="Changes" comment="sprint 3">
+      <change beforePath="$PROJECT_DIR$/.idea/devtoolkit-ai.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/devtoolkit-ai.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C:/Users/Usuario/AppData/Local/JetBrains/RubyMine2026.1/projects/devtoolkit-ai.c22cd416/rbs_collection/devtoolkit_ai/rbs_collection.lock.yaml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/C:/Users/Usuario/AppData/Local/JetBrains/RubyMine2026.1/projects/devtoolkit-ai.c22cd416/rbs_collection/devtoolkit_ai/rbs_collection.yaml" beforeDir="false" />
     </list>
@@ -26,12 +28,12 @@
     &quot;assignee&quot;: &quot;aotalwork&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/aotalwork/devtoolkit-ai.git",
-    "accountId": "6de50dd0-4669-4cbb-b47b-332591c99a92"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/aotalwork/devtoolkit-ai.git&quot;,
+    &quot;accountId&quot;: &quot;6de50dd0-4669-4cbb-b47b-332591c99a92&quot;
   }
-}]]></component>
+}</component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -62,7 +64,7 @@
     "RunOnceActivity.ruby.rubocop.migration.global.runOnSaveToExternalFormatter": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.lang.ruby.rbs.tools.collection.workspace.sync.RbsCollectionUpdateProjectActivity#LAST_UPDATE_TIMESTAMP": "1785488683360",
+    "com.intellij.lang.ruby.rbs.tools.collection.workspace.sync.RbsCollectionUpdateProjectActivity#LAST_UPDATE_TIMESTAMP": "1785690618881",
     "credentialsType org.jetbrains.plugins.ruby.remote.impl.RubyCreateRemoteInterpreterDialog$RubyCreateRemoteSdkForm": "WSL",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
@@ -160,6 +162,7 @@
       <workItem from="1785488624988" duration="12796000" />
       <workItem from="1785502902688" duration="69000" />
       <workItem from="1785661321275" duration="7292000" />
+      <workItem from="1785690547137" duration="2419000" />
     </task>
     <task id="LOCAL-00001" summary="sprint 3">
       <option name="closed" value="true" />
