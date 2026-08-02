@@ -1,11 +1,9 @@
 class GeminiClient
-
   MODEL = "gemini-flash-latest"
 
   URL = "https://generativelanguage.googleapis.com/v1beta/models/#{MODEL}:generateContent"
 
   def self.generate(prompt)
-
     uri = URI("#{URL}?key=#{ENV['GEMINI_API_KEY']}")
 
     request = Net::HTTP::Post.new(uri)
@@ -33,7 +31,5 @@ class GeminiClient
     end
 
     JSON.parse(response.body)
-
   end
-
 end

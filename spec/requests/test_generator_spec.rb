@@ -1,18 +1,21 @@
-require 'rails_helper'
+require "rails_helper"
 
-RSpec.describe "TestGenerators", type: :request do
-  describe "GET /index" do
+RSpec.describe "TestGenerator", type: :request do
+  describe "GET /code_explainer" do
     it "returns http success" do
-      get "/test_generator/index"
+      get test_generator_index_path
+
       expect(response).to have_http_status(:success)
     end
   end
 
-  describe "GET /create" do
+  describe "POST /test_generator" do
     it "returns http success" do
-      get "/test_generator/create"
+      post test_generator_index_path, params: {
+        input: "def hello\n puts 'Hola'\nend"
+      }
+
       expect(response).to have_http_status(:success)
     end
   end
-
 end
