@@ -1,6 +1,8 @@
 require "active_support/core_ext/integer/time"
 
 Rails.application.configure do
+
+  config.hosts.clear
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
@@ -9,7 +11,6 @@ Rails.application.configure do
   # Eager load code on boot for better performance and memory savings (ignored by Rake tasks).
   config.eager_load = true
 
-  config.hosts << "devtoolkit-ai.onrender.com"
 
   # Full error reports are disabled.
   config.consider_all_requests_local = false
