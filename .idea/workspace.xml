@@ -4,8 +4,7 @@
     <list default="true" id="90ca5312-070d-48d6-95d8-5db0f7607619" name="Changes" comment="sprint 3">
       <change beforePath="$PROJECT_DIR$/.idea/devtoolkit-ai.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/devtoolkit-ai.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C:/Users/Usuario/AppData/Local/JetBrains/RubyMine2026.1/projects/devtoolkit-ai.c22cd416/rbs_collection/devtoolkit_ai/rbs_collection.lock.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C:/Users/Usuario/AppData/Local/JetBrains/RubyMine2026.1/projects/devtoolkit-ai.c22cd416/rbs_collection/devtoolkit_ai/rbs_collection.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rails" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rails" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +27,12 @@
     &quot;assignee&quot;: &quot;aotalwork&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/aotalwork/devtoolkit-ai.git&quot;,
-    &quot;accountId&quot;: &quot;6de50dd0-4669-4cbb-b47b-332591c99a92&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/aotalwork/devtoolkit-ai.git",
+    "accountId": "6a97f957-b56e-4b08-9838-319308b0d490"
   }
-}</component>
+}]]></component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -58,6 +57,8 @@
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Rails.devtoolkit-ai.executor": "Debug",
+    "RailsGeneratorsRunner#FAILED_RELOADS_PROPERTY": "1",
+    "RakeTasksRunner#FAILED_RELOADS_PROPERTY": "1",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -70,7 +71,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "F:/DOCUMENTOS ARANTXA/devtoolkit-ai",
     "ruby.structure.view.model.defaults.configured": "true",
-    "settings.editor.selected.configurable": "terminal",
+    "settings.editor.selected.configurable": "configurable.group.language",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -144,13 +145,6 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-RM-261.26222.67" />
-      </set>
-    </attachedChunks>
-  </component>
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -163,6 +157,7 @@
       <workItem from="1785502902688" duration="69000" />
       <workItem from="1785661321275" duration="7292000" />
       <workItem from="1785690547137" duration="2419000" />
+      <workItem from="1789484535346" duration="817000" />
     </task>
     <task id="LOCAL-00001" summary="sprint 3">
       <option name="closed" value="true" />
